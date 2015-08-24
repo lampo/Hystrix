@@ -11,3 +11,7 @@ dependencies {
 jettyRun {
         httpPort = 7979
 }
+
+war {
+  archiveName = 'hystrix-dashboard.war'
+}
